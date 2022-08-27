@@ -8,4 +8,4 @@ function calculateEntry(entrants) {
   // seu código aqui
 }
 
-module.exports = { calculateEntry, countEntrants };1
+module.exports = { calculateEntry, countEntrants };
