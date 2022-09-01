@@ -7,12 +7,8 @@ function countEntrants(entrants) {
     senior: entrants.filter((person) => person.age >= 50).length,
 
   };
-  
-  
 }
-
-function calculateEntry(entrants ) {
-
+function calculateEntry(entrants) {
   if (!entrants) {
     return 0;
   }
@@ -20,9 +16,7 @@ function calculateEntry(entrants ) {
     return 0;
   }
 
-
   const { child, adult, senior } = countEntrants(entrants);
-  
   return child * 20.99 + adult * 49.99 + senior * 24.99;
 }
 
