@@ -1,6 +1,9 @@
 const handlerElephants = require('../src/handlerElephants');
 
 describe('Testes da função HandlerElephants', () => {
+  it(('teste se handlerElephants é uma função'), () => {
+    expect(typeof handlerElephants).toBe('function');
+  });
   it('Retorna a quantidade de elefantes', () => {
     expect(handlerElephants('count')).toEqual(4);
   });
@@ -19,13 +22,20 @@ describe('Testes da função HandlerElephants', () => {
   it('Retorna um array com a relação de dias em que é possível visitar os elefantes', () => {
     expect(handlerElephants('availability')).toEqual(['Friday', 'Saturday', 'Sunday', 'Tuesday']);
   });
-  it('Não passando argumentos a função deve retornar undefined', () => {
-    expect(handlerElephants()).toEqual(undefined);
+  it('Não passando parametros a função deve retornar undefined', () => {
+    expect(handlerElephants()).toBeUndefined();
   });
   it('Se o argumento passado for {} deve retornar uma string', () => {
     expect(handlerElephants({})).toBe('Parâmetro inválido, é necessário uma string');
   });
+
   it(('Retorno correto da função handlerElephant pega os parametros corretos'), () => {
     expect(handlerElephants('id')).toEqual('bb2a76d8-5fe3-4d03-84b7-dba9cfc048b5');
+  });
+  it(('Retorna informação de parametro invalido caso receba um número'), () => {
+    expect(handlerElephants(1)).toEqual('Parâmetro inválido, é necessário uma string');
+  });
+  it(('Retornocaso o parametro que não exista no objeto'), () => {
+    expect(handlerElephants('naoExiste')).toBeNull();
   });
 });
