@@ -6,16 +6,26 @@ O projeto consiste em simular um sistema de relatório de um zoológico. O siste
 
 Foi desenvolvido um conjunto de funções capazes de recuperar vários tipos de informações acerca do zoológico e de seu funcionamento, utilizando os conceitos de JavaScript.
 
-
-
-
 ## Tecnologias utilizadas
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - JavaScript ES6
-- Node.js
 - Jest
+- Testes de cobertura
+- let
+- const
+- arrow functions
+- template literals
+- spread operator
+- parâmetro rest
+- object destructuring
+- array destructuring;
+- default destructuring
+- abbreviation object literal
+- default params
+- higher order functions
+- Node.js
 
 ## Instalação do projeto localmente
 
@@ -37,7 +47,6 @@ Para instalar este projeto na sua máquina localmente siga estes passos
 ```javascript
   npm test
 ```
-
 ## Requisitos do projeto
 
 1. Implemente a função `getSpeciesByIds` que busca as espécies de animais por id
