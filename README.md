@@ -2,7 +2,12 @@
 
 Este é um projeto desenvolvido no curso de Desenvolvimento de Software da Trybe. O objetivo é praticar conceitos de JavaScript ES6 como funções de alta ordem (HOFs), spread operator, parâmetro rest, object destructuring e default destructuring.
 
-O projeto consiste em implementar funções que manipulam dados de um zoológico fictício. Os dados estão organizados em um arquivo JSON que contém informações sobre os animais, os funcionários e os preços dos ingressos.
+O projeto consiste em simular um sistema de relatório de um zoológico. O sistema possui informações a respeito dos animais presentes no zoológico, colaboradores, horários de funcionamento e uma tabela de preços que varia de acordo com a idade das pessoas que o visitam.
+
+Foi desenvolvido um conjunto de funções capazes de recuperar vários tipos de informações acerca do zoológico e de seu funcionamento, utilizando os conceitos de JavaScript.
+
+
+
 
 ## Tecnologias utilizadas
 
