@@ -34,7 +34,7 @@ Para instalar este projeto na sua máquina localmente siga estes passos
 1. Clone este repositório usando 
 
 ```javascript
-  git clone git@github.com:brenolg/Zoo-Functions.git
+  git clone git@github.com:brenolg/Zoo-Functions-JS.git
 ```
 
 2. Instale as dependências usando 
